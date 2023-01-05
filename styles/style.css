@@ -77,6 +77,18 @@ nav li{
     color: #757575;
     padding-bottom: 30px;
 }
+.contact-button{
+    font-family: 'Antonio', sans-serif;
+    margin-left: 30px;
+    padding: 18px 35px;
+    color: #ffff;
+    /* background-color:#FD6E0A ; */
+    border: 1px solid #FD6E0A ;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
 
 main{
     max-width: 1140px;
@@ -148,4 +160,79 @@ main{
 .skill-desc{
     padding-top: 20px;
     font-family: 'Antonio', sans-serif;
+}
+
+/* resume styles */
+
+.resume{
+    padding-top: 170px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    padding-top: 83px;
+    font-family: 'Antonio', sans-serif;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Antonio', sans-serif;
+    padding-right: 35px;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.resume .subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+.resume .desc{
+    color: #757575;
+}
+.resume-button{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 113px;
+}
+
+/* contact form styles  */
+
+.contact{
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(196, 188, 188);
+    gap: 117px;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Antonio', sans-serif;
+    padding-bottom: 24px;
+}
+.contact-desc{
+    font-family: 'Antonio', sans-serif;
+    color: #474747;
+    padding-bottom: 30px;
+}
+.contact a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0px;
+    padding: 18px 30px;
+    display: block;
+    width: 100%
 }

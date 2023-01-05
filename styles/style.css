@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Anton', sans-serif;
+font-family: 'Antonio', sans-serif; */
+
+/* header and navigation styles */
+.header{
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.primary-button{
+    font-family: 'Antonio', sans-serif;
+    padding: 18px 35px;
+    color: #ffff;
+    background-color:#FD6E0A ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 51px;
+    padding-left: 226px;
+    padding-right: 230px;
+}
+.navbar-title {
+    font-family: 'Anton', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    font-family: 'Antonio', sans-serif;
+    list-style: none;
+    font-size: 20px;
+    padding-left: 61px;
+}
+/* banner css */
+
+.banner{
+    padding-left: 226px;
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+.banner-sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    font-family: 'Antonio', sans-serif;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    font-family: 'Anton', sans-serif;
+    color: #181818;
+    padding: 5px 0px 20px 0px;
+}
+.banner-desc{
+    font-size: 18px;
+    font-family: 'Antonio', sans-serif;
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* about section styles */
+
+.about{
+    margin: 130px;
+    padding: 131px 157px;
+    background: #FFF8F3;    border-radius: 10px;
+    text-align: center;
+
+}
+.section-title{
+    padding-bottom: 30px;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+    font-size: 35px;    
+}
+.section-desc{
+    color: #757575;
+    font-size: 18px;
+    font-family: 'Antonio', sans-serif;
+    padding-bottom: 30px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    margin-right: 5opx;
+    font-size: 20px;
+}
+.info-title{
+    font-family: 'Antonio', sans-serif;
+    color: #757575;
+
+}
+.info-desc{
+    font-family: 'Antonio', sans-serif;
+    color: #474747;
+    font-weight: 700;
+}
